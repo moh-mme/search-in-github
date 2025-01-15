@@ -10,9 +10,8 @@ btn.addEventListener("click",function (){
     req.onreadystatechange = function (){
         if(this.readyState === 4 && this.status === 200){
             let jsData = JSON.parse(this.responseText);
-            
+            postList.innerHTML = "";
             for(let i =0; i<jsData.length; i++){
-                console.log(jsData);
                 let li = document.createElement('li');
                 let pos = document.createElement('p');
                 pos.innerHTML = jsData[i].name;
