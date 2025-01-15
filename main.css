@@ -76,10 +76,10 @@
     justify-content: space-between;
     font-size: 20px;
     font-weight: 500;
-    color:#e5e5e5 ;
-    background-color: #14213d;
-    padding: 10px;
-    border-radius: 10px;
+    color:#000 ;
+    background-color: #e5e5e5;
+    padding: 15px;
+    border-radius: 30px;
     margin-top: 10px;
     transition: all .3s;
 }
